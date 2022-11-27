@@ -17,7 +17,7 @@ html::-webkit-scrollbar-thumb{
     border-radius: 0.50rem;
 }
 body{
-    background: rgb(59, 78, 66);
+    background: rgb(42, 44, 43);
 }
 .home{   
     background:  url('image/3e3fc9c4c42536a.gif');
@@ -29,16 +29,13 @@ body{
 }
 
 .container{
-    max-width: 20%;
-    margin-inline: auto;
-    min-height: 1000px;
-  
-  
+    /*max-width: 20%;
+    margin-inline: auto; */
 
 }
 .con{
     position: relative;
-    max-width: 17rem;
+    max-width: 14rem;
     margin: 0 auto;
    
   
@@ -51,10 +48,29 @@ body{
     position: absolute;
     top: -150px;
   
-    
-  
 }
 
+
+.con2 h1{
+    color: rgb(47, 241, 255);
+   /* font-family: 'Times New Roman', 'Times', 'serif';
+    max-width: 17rem;
+    margin: 0 auto;
+   */
+    margin-top: 10rem;
+    text-align: center  ;
+   
+}
+
+.con2 p{
+    color: rgb(66, 199, 49);
+  font-size: 30px;
+   /* max-width: 17rem;
+    margin: 0 auto;*/
+    margin-top: 2rem;
+    text-align: center;
+   
+}
 
 
 
