@@ -64,8 +64,6 @@ body{
 }
 p{
     color: rgb(47, 241, 255);
-    height:100px;
- 
 
 }
 
@@ -113,39 +111,35 @@ p{
 }
 
 .skills{
-
-
    
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 10rem;
 
 }
 
 .container2{
- display: flex;
- flex-wrap: wrap;
- max-width: 40rem;
- padding: 2rem 0;
-margin: 0 auto;
-
-
-
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    gap: 15rem;
+    margin: 0 auto;
+  
  
 
 
 }
 
 .con3{
-    height:100px;  
-    width: 50%;
-    margin-top: 2rem;
-    flex: 0 0 auto;
-    padding: 3rem !important;
-    
+    height:100px;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    gap: 1rem;
   
 }
 .con3 img{
-    height: 80px;
-    width: auto;
-    vertical-align: middle;
+    height:100%;
    
     
 }
