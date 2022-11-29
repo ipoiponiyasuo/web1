@@ -57,14 +57,21 @@ body{
     max-width: 17rem;
     margin: 0 auto;
    */
+  
     margin-top: 10rem;
-    text-align: center;
+    text-align: center  ;
    
+}
+p{
+    color: rgb(47, 241, 255);
+    height:100px;
+ 
+
 }
 
 .con2 p{
     color: rgb(66, 199, 49);
-  font-size: 30px;
+    font-size: 30px;
    /* max-width: 17rem;
     margin: 0 auto;*/
     margin-top: 2rem;
@@ -72,18 +79,9 @@ body{
    
 }
 
-.con2 p{
-    color: rgb(66, 199, 49);
-  font-size: 30px;
-   /* max-width: 17rem;
-    margin: 0 auto;*/
-    margin-top: 2rem;
-    text-align: center;
-   
-}
 .letter p{
     color: rgb(47, 241, 255);
-    font-size: 25px;
+    font-size: 30px;
      /* max-width: 17rem;
       margin: 0 auto;*/
       margin-top: 2rem;
@@ -95,9 +93,73 @@ body{
    
 }
 .letter2 p{
+    border-top: 1.50px solid   rgb(74, 85, 80);
+    padding: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
     font-size: 25px;
    
 }
+
+.letter3 p{
+    border-bottom: 1.50px solid   rgb(74, 85, 80);
+    padding: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    font-size: 25px;
+   
+}
+
+.skills{
+
+
+   
+
+}
+
+.container2{
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 40rem;
+ padding: 2rem 0;
+margin: 0 auto;
+
+
+
+ 
+
+
+}
+
+.con3{
+    height:100px;  
+    width: 50%;
+    margin-top: 2rem;
+    flex: 0 0 auto;
+    padding: 3rem !important;
+    
+  
+}
+.con3 img{
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:519px){
