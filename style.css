@@ -18,6 +18,7 @@ html::-webkit-scrollbar-thumb{
 }
 body{
     background: rgb(42, 44, 43);
+    
 }
 .home{   
     background:  url('image/3e3fc9c4c42536a.gif');
@@ -64,8 +65,30 @@ body{
 }
 p{
     color: rgb(47, 241, 255);
+}
+    
+footer{
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-top: 1.50px solid   rgb(74, 85, 80);
+  
+    
+}
+
+
+.p{
+    color: rgb(47, 241, 255);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 3rem;
+  
+
+   
+    
 
 }
+
 
 .con2 p{
     color: rgb(66, 199, 49);
@@ -76,6 +99,23 @@ p{
     text-align: center;
    
 }
+.letters{
+    border-bottom: 1.50px solid   rgb(74, 85, 80);
+    max-width: 60rem;
+    margin: 0 auto;
+   
+}
+.letters p{
+    color: rgb(47, 241, 255);
+    margin-bottom: 5rem;
+   
+ }
+
+ .letters p span{
+ 
+    color: rgb(14, 180, 50);
+   
+ }
 
 .letter p{
     color: rgb(47, 241, 255);
@@ -112,17 +152,18 @@ p{
 
 .skills{
    
-    max-width: 40rem;
-    margin: 0 auto;
+  
     margin-top: 10rem;
+    
 
 }
 
-.container2{
+.portfolio-wrapper{
+    
     display: flex;
     flex-wrap: wrap;
     max-width: 40rem;
-    gap: 15rem;
+    gap: 10rem;
     margin: 0 auto;
   
  
@@ -155,7 +196,6 @@ p{
 
 
 
-
 @media (max-width:519px){
 
     .container{
@@ -171,6 +211,23 @@ p{
         
       
     }
+    .portfolio-wrapper{
+        max-width: 40%;
+        margin: 0 auto;
+        gap: 5rem;
+
+    }
+    
+
+}
+
+@media (max-width:372px){
+
+    .container{
+        max-width: 55%;
+        margin: 0 auto;
+    }
+    
     
 
 }
